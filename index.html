@@ -7,14 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel = "stylesheet" href = "./styles.css";
-    <script src = "script.js"></script>
 </head>
 <body>
 
     <div class="container">
         <h1 class = "title">PASSWORD GEN</h1>
-        <h3 class = "passDisplay">Passwasdddddddddddddddddddddddddddddddddord</h3>
-        <form class = "form">
+        <h3 id = "pass"class = "passDisplay">Passwasdddddddddddddddddddddddddddddddddord</h3>
+        <form id = "genForm"class = "form">
             <label for = "charRangeNumber">Number of characters</label>
             <div class ="range-number">
                 <input type = "range" min = "1" value = "30" max = "50" id = "charRange"/>
@@ -29,9 +28,9 @@
             <label for = "includeSymbols">Include Symbols</label>
             <input type = "checkbox" id = "includeSymbols"/>
 
-            <button class ="submitButton" type = "submit">Gen Password</button>
+            <button id="button" class ="submitButton" type = "submit">Gen Password</button>
         </form>
     </div>
-    
+    <script src = "script.js"></script>
 </body>
 </html>
