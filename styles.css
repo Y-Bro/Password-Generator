@@ -1,0 +1,89 @@
+/* *{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+/* .container{
+    border : 2px solid black;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 100px;
+    height : 80vh;
+    max-width: 400px;
+    min-width : 200px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4),rgba(0,0,0,0.75) );
+} */
+
+body{
+    display : flex;
+    color : white;
+    margin : 0;
+    background-color : rgb(51, 47, 47);
+    align-items : center;
+    justify-content: center;
+    min-height : 100vh;
+    font-family: 'cambria','sans-serif';
+}
+
+.container{
+    background: linear-gradient(to bottom , rgba(0,0,0,0.25) , rgba(0,0,0,0.75));
+    border-radius: 16px;
+    padding : 48px;
+    display : flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form{
+    display : grid;
+    grid-template-columns: auto auto;
+    row-gap : 1rem;
+    column-gap : 48px;
+    justify-content: center;
+    align-items:center ;
+}
+
+.title{
+    margin : 10px;
+    text-align: center;
+}
+
+label{
+    font-weight: bold;
+}
+
+.range-number{
+    display: flex;
+    align-items: center;
+}
+
+.charNumber{
+    width: 32px;
+}
+
+.passDisplay{
+    background-color:white;
+    color: black;
+    padding: 1rem;
+    border : 2px solid pink;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    word-break: break-all;
+
+}
+
+.submitButton{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    
+}

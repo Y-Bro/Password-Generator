@@ -1,0 +1,23 @@
+{
+  "name": "passwordgenerator",
+  "version": "1.0.0",
+  "description": "A Simple Password Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y-Bro/Password-Generator.git"
+  },
+  "author": "Bharath Yerrumsetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Y-Bro/Password-Generator/issues"
+  },
+  "homepage": "https://github.com/Y-Bro/Password-Generator#readme",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
